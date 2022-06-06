@@ -1,0 +1,224 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxanium:wght@200;300;400;500;600;700;800&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+p{
+    margin: 0;
+}
+
+
+/************************************************************************************
+start header and nav section css
+*************************************************************************************/
+
+.header {
+    margin: 0 280px 0 146px;
+}
+
+.img-logo {
+    width: 73px;
+    height: 50px;
+}
+
+.manu-icon {
+    background-color: rgb(0, 0, 0);
+}
+
+.btn-custom {
+    border: double 4px transparent;
+    border-radius: 8px;
+    background-image: linear-gradient(rgb(0, 0, 0), rgb(0, 0, 0)), conic-gradient(from 180deg at 48.5% 50%, #FCC255 -46.16deg, #4B2A16 130.63deg, #FAB95E 133.38deg, #B47428 204.46deg, #533018 311.43deg, #FCC255 313.84deg, #4B2A16 490.63deg);
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+    transition: 0.4s ease-in-out;
+
+}
+
+.btn-custom:hover {
+    background-image: linear-gradient(rgb(0, 0, 0), rgb(0, 0, 0)), conic-gradient(from 180deg at 48.5% 50%, #B47428 -22.97deg, #533018 92.26deg, #FCC255 100.77deg, #FAB95E 211.86deg, #4B2A16 219.11deg, #B47428 337.03deg, #533018 452.26deg);
+}
+
+.btn-custom p {
+    background: conic-gradient(from 85deg at 48.5% 50%, #FCC255 -46.16deg, #4B2A16 356deg, #FAB95E 133.38deg, #B47428 254deg, #533018 311.43deg, #FCC255 204deg, #4B2A16 490.63deg);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+    margin-bottom: 0rem;
+    font-weight: 600;
+    font-size: 16px;
+    padding: 13px 20px;
+}
+
+.ether-btn {
+    color: #fff;
+    border: none;
+    background: conic-gradient(from 180deg at 48.5% 50%, #FCC255 -46.16deg, #4B2A16 130.63deg, #FAB95E 133.38deg, #B47428 204.46deg, #533018 311.43deg, #FCC255 313.84deg, #4B2A16 490.63deg);
+    border-radius: 2px;
+    padding: 13px 20px;
+    margin-right: 24px;
+    font-weight: 500;
+    font-size: 16px;
+    border: double 4px transparent;
+    border-radius: 8px;
+    background-image: conic-gradient(from 180deg at 48.5% 50%, #FCC255 -46.16deg, #4B2A16 130.63deg, #FAB95E 133.38deg, #B47428 204.46deg, #533018 311.43deg, #FCC255 313.84deg, #4B2A16 490.63deg), conic-gradient(from 180deg at 48.5% 50%, #FCC255 -46.16deg, #4B2A16 130.63deg, #FAB95E 133.38deg, #B47428 204.46deg, #533018 311.43deg, #FCC255 313.84deg, #4B2A16 490.63deg);
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+    transition: 0.4s ease-in-out;
+}
+
+.ether-btn:hover {
+    transition: 5s;
+    background-image: conic-gradient(from 180deg at 48.5% 50%, #533018 -150deg, #4B2A16 16.88deg, #D59B4E 35.62deg, #FAB95E 146.25deg, #B47428 161.25deg, #FCC255 189.38deg, #533018 210deg, #4B2A16 376.88deg), conic-gradient(from 180deg at 48.5% 50%, #533018 -150deg, #4B2A16 16.88deg, #D59B4E 35.62deg, #FAB95E 146.25deg, #B47428 161.25deg, #FCC255 189.38deg, #533018 210deg, #4B2A16 376.88deg);
+}
+
+.social {
+    margin-top: 14px;
+}
+
+.navbar-nav {
+    margin-left: 70px;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+.nav-link {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    text-transform: uppercase;
+    color: #fff;
+    transition: 0.4s ease-in-out;
+}
+
+.nav-link:hover {
+    font-weight: 700;
+    background: linear-gradient(90deg, #00F260 0%, #0575E6 100%, #0575E6 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+}
+
+.nav-link:focus {
+    font-weight: 700 !important;
+    background: linear-gradient(90deg, #00F260 0%, #0575E6 100%, #0575E6 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+}
+
+.navbar-nav .nav-link.active {
+    font-weight: 700 !important;
+    background: linear-gradient(90deg, #00F260 0%, #0575E6 100%, #0575E6 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+}
+
+@media (min-width:1024px) and (max-width:1320px) {
+    header {
+        margin: 0px;
+    }
+
+    .navbar-nav {
+        margin-left: 15px;
+    }
+
+    .nav-link {
+        font-size: 12px;
+        line-height: 0px;
+    }
+
+    .btn-custom p {
+        padding: 5px 10px;
+    }
+
+    .ether-btn {
+        padding: 5px;
+        border-radius: 2px;
+    }
+}
+
+@media (min-width:1321px) and (max-width:1700px) {
+    header {
+        margin: 0 220px 0 106px;
+    }
+
+    .nav-link {
+        font-size: 14px;
+    }
+
+    .navbar-nav {
+        margin-left: 25px;
+    }
+
+    .btn-custom p {
+        padding: 5px 8px;
+    }
+
+    .ether-btn {
+        font-size: 16px;
+        padding: 7px 15px;
+    }
+}
+
+@media (min-width:280px) and (max-width:991px) {
+    header {
+        margin: 0px;
+    }
+
+    .btn-custom {
+        padding: 5px;
+
+    }
+
+    .btn-custom p {
+        font-size: 12px;
+    }
+
+    .ether-btn {
+        padding: 5px;
+        margin-right: 10px;
+    }
+
+    .btn-custom {
+        margin-top: 10px;
+    }
+}
+
+
+/************************************************************************************
+end header and nav section css
+*************************************************************************************/
+
+
+/************************************************************************************
+start navbar section css
+*************************/
+
+    .navbar-nav {
+    margin-left: 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+@media (min-width:280px) and (max-width: 768px) {
+    .nav-form {
+    display: flex!important;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+}
+}
+
+/************************************************************************************
+end navbar section css
+*************************/
+
+
